@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ABOUT US</title>
+</head>
+
+<body>
+<h2>BUY FLOWERS ONLINE </h2>
+<p>Planning a delightful surprise for that special person in your life this Valentine’s Day? The best birthday gift for your loved one? Or a special treat on your 1st marriage anniversary? We, at Hyderabad Flora, provides the best gift idea that will enchant, engage, and enhance the happiness and glory of any occasion, touching the heart of your special ones in the most beautiful manner.
+<p>With beautiful and sincere social expressions being an important part of life, Hyderabad Flora have added a touch of charm and glory to it, pioneering the concept of online flower bouquet delivery . 
+
+</body>
+</html>

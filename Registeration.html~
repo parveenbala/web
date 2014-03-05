@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script id="1">
+label {color:red;}
+</script>
+</head>
+
+<body>
+<form>
+<h2>NEW USERS REGISTER HERE</H2>
+<br><h5>Required Fields are marked by *</h5>
+First Name : <input type="text" name="fname" maxlength="10" required autofocus><label id="1">*</label> Max 10 digits<br>
+Last Name : <input type="text" name="lname" maxlength="10" required> *<br>
+Username: <input type="text" name="user"  required>*<br>
+Password: <input type="password" name="pwd" maxlength="10" required>* Max 10 digits<br>
+E-mail Id : <input type="email" name="email" id="email" /><br>
+Sex : <input type="radio" name="sex" value="male">Male
+<input type="radio" name="sex" value="female">Female<br>
+Mobile Number : <input type="tel" name="telephone" maxlength="10" required>*<br><br>
+Address : <br><textarea cols="30" rows="5"></textarea><br>
+Pin Code : <input type="number" pattern="[0-9]*" name="pin" maxlength="6" required>*<br><br>
+
+
+
+
+<input type="submit" value="Submit"/> <input type="reset" value="Clear"/>
+</form>
+<footer> 
+Time : 
+</footer>
+</body>
+</html>
