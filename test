@@ -1,0 +1,34 @@
+2.5.4
+Pushing to Your Remotes
+When you have your project at a point that you want to share, you have to push it
+upstream. The command for this is simple: git push [remote-name] [branch-name].
+If you want to push your master branch to your origin server (again, cloning generally
+sets up both of those names for you automatically), then you can run this to push your
+work back up to the server:
+$ git push origin master
+This command works only if you cloned from a server to which you have write
+access and if nobody has pushed in the meantime. If you and someone else clone at
+the same time and they push upstream and then you push upstream, your push will
+rightly be rejected. You’ll have to pull down their work first and incorporate it into
+yours before you’ll be allowed to push. See Chapter 3 for more detailed information
+on how to push to remote servers.
+2.5.5
+Inspecting a Remote
+If you want to see more information about a particular remote, you can use the git
+remote show [remote-name] command. If you run this command with a particular
+shortname, such as origin, you get something like this:
+$ git remote show origin
+* remote origin
+URL: git://github.com/schacon/ticgit.git
+Remote branch merged with ’git pull’ while on branch master
+master
+Tracked remote branches
+master
+ticgit
+It lists the URL for the remote repository as well as the tracking branch information.
+The command helpfully tells you that if you’re on the master branch and you run git
+pull, it will automatically merge in the master branch on the remote after it fetches all
+the remote references. It also lists all the remote references it has pulled down.
+That is a simple example you’re likely to encounter. When you’re using Git more
+heavily, however, you may see much more information from git remote show:
+
