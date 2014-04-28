@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+<form>
+<h2>LOGIN HERE</h2><br><p>
+Login Id : <input type="text" name="id"><br>
+Password : <input type="password" name="pwd"><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+
+
+</body>
+</html>
